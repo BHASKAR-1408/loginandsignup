@@ -1,0 +1,317 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', '--save', 'knex' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData knex
+8 silly fetchNamedPackageData knex
+9 silly mapToRegistry name knex
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/knex
+13 verbose request uri https://registry.npmjs.org/knex
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 11:25:59
+16 verbose request id 2f5d4c0656cc23de
+17 verbose etag W/"7a098aa824eade58cea214c0df8fadb2"
+18 verbose lastModified Mon, 17 Aug 2020 18:14:14 GMT
+19 http request GET https://registry.npmjs.org/knex
+20 http 304 https://registry.npmjs.org/knex
+21 verbose headers { date: 'Sun, 06 Sep 2020 05:56:00 GMT',
+21 verbose headers   connection: 'keep-alive',
+21 verbose headers   'set-cookie':
+21 verbose headers    [ '__cfduid=d2f275d3e75d8bc09b75ee0ae5c6608181599371760; expires=Tue, 06-Oct-20 05:56:00 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+21 verbose headers   'cf-ray': '5ce5f1c098df4da5-BOM',
+21 verbose headers   age: '66',
+21 verbose headers   'cache-control': 'public, max-age=300',
+21 verbose headers   etag: '"7a098aa824eade58cea214c0df8fadb2"',
+21 verbose headers   'last-modified': 'Mon, 17 Aug 2020 18:14:14 GMT',
+21 verbose headers   vary: 'Accept-Encoding',
+21 verbose headers   'cf-cache-status': 'HIT',
+21 verbose headers   'cf-request-id': '0503956c5b00004da56bbd1200000001',
+21 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+21 verbose headers   server: 'cloudflare' }
+22 silly get cb [ 304,
+22 silly get   { date: 'Sun, 06 Sep 2020 05:56:00 GMT',
+22 silly get     connection: 'keep-alive',
+22 silly get     'set-cookie':
+22 silly get      [ '__cfduid=d2f275d3e75d8bc09b75ee0ae5c6608181599371760; expires=Tue, 06-Oct-20 05:56:00 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+22 silly get     'cf-ray': '5ce5f1c098df4da5-BOM',
+22 silly get     age: '66',
+22 silly get     'cache-control': 'public, max-age=300',
+22 silly get     etag: '"7a098aa824eade58cea214c0df8fadb2"',
+22 silly get     'last-modified': 'Mon, 17 Aug 2020 18:14:14 GMT',
+22 silly get     vary: 'Accept-Encoding',
+22 silly get     'cf-cache-status': 'HIT',
+22 silly get     'cf-request-id': '0503956c5b00004da56bbd1200000001',
+22 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+22 silly get     server: 'cloudflare' } ]
+23 verbose etag https://registry.npmjs.org/knex from cache
+24 verbose get saving knex to /home/ng-1/.npm/registry.npmjs.org/knex/.cache.json
+25 silly install normalizeTree
+26 silly loadCurrentTree Finishing
+27 silly loadIdealTree Starting
+28 silly install loadIdealTree
+29 silly cloneCurrentTree Starting
+30 silly install cloneCurrentTreeToIdealTree
+31 silly cloneCurrentTree Finishing
+32 silly loadShrinkwrap Starting
+33 silly install loadShrinkwrap
+34 silly loadShrinkwrap Finishing
+35 silly loadAllDepsIntoIdealTree Starting
+36 silly install loadAllDepsIntoIdealTree
+37 silly resolveWithNewModule knex@0.21.5 checking installable status
+38 silly cache add args [ 'knex', null ]
+39 verbose cache add spec knex
+40 silly cache add parsed spec Result {
+40 silly cache add   raw: 'knex',
+40 silly cache add   scope: null,
+40 silly cache add   name: 'knex',
+40 silly cache add   rawSpec: '',
+40 silly cache add   spec: 'latest',
+40 silly cache add   type: 'tag' }
+41 silly addNamed knex@latest
+42 verbose addNamed "latest" is being treated as a dist-tag for knex
+43 info addNameTag [ 'knex', 'latest' ]
+44 silly mapToRegistry name knex
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry uri https://registry.npmjs.org/knex
+48 verbose addNameTag registry:https://registry.npmjs.org/knex not in flight; fetching
+49 verbose get https://registry.npmjs.org/knex not expired, no request
+50 silly addNameTag next cb for knex with tag latest
+51 silly addNamed knex@0.21.5
+52 verbose addNamed "0.21.5" is a plain semver version for knex
+53 silly cache afterAdd knex@0.21.5
+54 verbose afterAdd /home/ng-1/.npm/knex/0.21.5/package/package.json not in flight; writing
+55 verbose afterAdd /home/ng-1/.npm/knex/0.21.5/package/package.json written
+56 silly fetchNamedPackageData colorette
+57 silly mapToRegistry name colorette
+58 silly mapToRegistry using default registry
+59 silly mapToRegistry registry https://registry.npmjs.org/
+60 silly mapToRegistry uri https://registry.npmjs.org/colorette
+61 silly fetchNamedPackageData commander
+62 silly mapToRegistry name commander
+63 silly mapToRegistry using default registry
+64 silly mapToRegistry registry https://registry.npmjs.org/
+65 silly mapToRegistry uri https://registry.npmjs.org/commander
+66 silly fetchNamedPackageData debug
+67 silly mapToRegistry name debug
+68 silly mapToRegistry using default registry
+69 silly mapToRegistry registry https://registry.npmjs.org/
+70 silly mapToRegistry uri https://registry.npmjs.org/debug
+71 silly fetchNamedPackageData esm
+72 silly mapToRegistry name esm
+73 silly mapToRegistry using default registry
+74 silly mapToRegistry registry https://registry.npmjs.org/
+75 silly mapToRegistry uri https://registry.npmjs.org/esm
+76 silly fetchNamedPackageData getopts
+77 silly mapToRegistry name getopts
+78 silly mapToRegistry using default registry
+79 silly mapToRegistry registry https://registry.npmjs.org/
+80 silly mapToRegistry uri https://registry.npmjs.org/getopts
+81 silly fetchNamedPackageData inherits
+82 silly mapToRegistry name inherits
+83 silly mapToRegistry using default registry
+84 silly mapToRegistry registry https://registry.npmjs.org/
+85 silly mapToRegistry uri https://registry.npmjs.org/inherits
+86 silly fetchNamedPackageData interpret
+87 silly mapToRegistry name interpret
+88 silly mapToRegistry using default registry
+89 silly mapToRegistry registry https://registry.npmjs.org/
+90 silly mapToRegistry uri https://registry.npmjs.org/interpret
+91 silly fetchNamedPackageData liftoff
+92 silly mapToRegistry name liftoff
+93 silly mapToRegistry using default registry
+94 silly mapToRegistry registry https://registry.npmjs.org/
+95 silly mapToRegistry uri https://registry.npmjs.org/liftoff
+96 silly fetchNamedPackageData lodash
+97 silly mapToRegistry name lodash
+98 silly mapToRegistry using default registry
+99 silly mapToRegistry registry https://registry.npmjs.org/
+100 silly mapToRegistry uri https://registry.npmjs.org/lodash
+101 silly fetchNamedPackageData mkdirp
+102 silly mapToRegistry name mkdirp
+103 silly mapToRegistry using default registry
+104 silly mapToRegistry registry https://registry.npmjs.org/
+105 silly mapToRegistry uri https://registry.npmjs.org/mkdirp
+106 silly fetchNamedPackageData pg-connection-string
+107 silly mapToRegistry name pg-connection-string
+108 silly mapToRegistry using default registry
+109 silly mapToRegistry registry https://registry.npmjs.org/
+110 silly mapToRegistry uri https://registry.npmjs.org/pg-connection-string
+111 silly fetchNamedPackageData tarn
+112 silly mapToRegistry name tarn
+113 silly mapToRegistry using default registry
+114 silly mapToRegistry registry https://registry.npmjs.org/
+115 silly mapToRegistry uri https://registry.npmjs.org/tarn
+116 silly fetchNamedPackageData tildify
+117 silly mapToRegistry name tildify
+118 silly mapToRegistry using default registry
+119 silly mapToRegistry registry https://registry.npmjs.org/
+120 silly mapToRegistry uri https://registry.npmjs.org/tildify
+121 silly fetchNamedPackageData uuid
+122 silly mapToRegistry name uuid
+123 silly mapToRegistry using default registry
+124 silly mapToRegistry registry https://registry.npmjs.org/
+125 silly mapToRegistry uri https://registry.npmjs.org/uuid
+126 silly fetchNamedPackageData v8flags
+127 silly mapToRegistry name v8flags
+128 silly mapToRegistry using default registry
+129 silly mapToRegistry registry https://registry.npmjs.org/
+130 silly mapToRegistry uri https://registry.npmjs.org/v8flags
+131 verbose request uri https://registry.npmjs.org/colorette
+132 verbose request no auth needed
+133 info attempt registry request try #1 at 11:26:00
+134 verbose etag W/"665ad403f25cfae166255a97f1ef22d0"
+135 verbose lastModified Sun, 05 Jul 2020 13:33:21 GMT
+136 http request GET https://registry.npmjs.org/colorette
+137 verbose request uri https://registry.npmjs.org/getopts
+138 verbose request no auth needed
+139 info attempt registry request try #1 at 11:26:00
+140 verbose etag W/"133584bff64b368f35b8cc582a894d8d"
+141 verbose lastModified Fri, 12 Jul 2019 02:06:31 GMT
+142 http request GET https://registry.npmjs.org/getopts
+143 verbose request uri https://registry.npmjs.org/inherits
+144 verbose request no auth needed
+145 info attempt registry request try #1 at 11:26:00
+146 verbose etag W/"89b9ff30160e62cccc320a50b274ccd9"
+147 verbose lastModified Wed, 19 Jun 2019 20:18:57 GMT
+148 http request GET https://registry.npmjs.org/inherits
+149 verbose request uri https://registry.npmjs.org/debug
+150 verbose request no auth needed
+151 info attempt registry request try #1 at 11:26:00
+152 verbose etag W/"682ba37cc9406956ab0280ea33284028"
+153 verbose lastModified Tue, 19 May 2020 09:51:31 GMT
+154 http request GET https://registry.npmjs.org/debug
+155 verbose request uri https://registry.npmjs.org/interpret
+156 verbose request no auth needed
+157 info attempt registry request try #1 at 11:26:00
+158 verbose etag W/"99f2474b51cd43f129b9d8a812129e11"
+159 verbose lastModified Wed, 03 Jun 2020 06:52:10 GMT
+160 http request GET https://registry.npmjs.org/interpret
+161 verbose request uri https://registry.npmjs.org/mkdirp
+162 verbose request no auth needed
+163 info attempt registry request try #1 at 11:26:00
+164 verbose etag W/"0730d9c43c136c318d8e19c69cbd72aa"
+165 verbose lastModified Wed, 22 Apr 2020 06:03:24 GMT
+166 http request GET https://registry.npmjs.org/mkdirp
+167 verbose request uri https://registry.npmjs.org/liftoff
+168 verbose request no auth needed
+169 info attempt registry request try #1 at 11:26:00
+170 verbose etag W/"4c6a3e23e3b7090dd71022c3469f7f01"
+171 verbose lastModified Sun, 10 Mar 2019 22:03:46 GMT
+172 http request GET https://registry.npmjs.org/liftoff
+173 verbose request uri https://registry.npmjs.org/pg-connection-string
+174 verbose request no auth needed
+175 info attempt registry request try #1 at 11:26:00
+176 verbose etag W/"bd36b5ef99b401e9600bf9fc6844d0a7"
+177 verbose lastModified Thu, 09 Jul 2020 15:41:41 GMT
+178 http request GET https://registry.npmjs.org/pg-connection-string
+179 verbose request uri https://registry.npmjs.org/tarn
+180 verbose request no auth needed
+181 info attempt registry request try #1 at 11:26:00
+182 verbose etag W/"5f818753ef5dff721be0f4d8b9d01fb6"
+183 verbose lastModified Sat, 18 Apr 2020 00:10:20 GMT
+184 http request GET https://registry.npmjs.org/tarn
+185 verbose request uri https://registry.npmjs.org/tildify
+186 verbose request no auth needed
+187 info attempt registry request try #1 at 11:26:00
+188 verbose etag W/"52aeb914d453aef59b84e4d99861ffeb"
+189 verbose lastModified Mon, 29 Apr 2019 03:38:41 GMT
+190 http request GET https://registry.npmjs.org/tildify
+191 verbose request uri https://registry.npmjs.org/esm
+192 verbose request no auth needed
+193 info attempt registry request try #1 at 11:26:00
+194 verbose etag W/"ffb044fdd4b295d4f9a02b41022167ff"
+195 verbose lastModified Fri, 16 Aug 2019 06:01:57 GMT
+196 http request GET https://registry.npmjs.org/esm
+197 verbose request uri https://registry.npmjs.org/v8flags
+198 verbose request no auth needed
+199 info attempt registry request try #1 at 11:26:00
+200 verbose etag W/"89844c7b247807135e4a197d630e317c"
+201 verbose lastModified Sun, 31 May 2020 22:29:48 GMT
+202 http request GET https://registry.npmjs.org/v8flags
+203 verbose request uri https://registry.npmjs.org/lodash
+204 verbose request no auth needed
+205 info attempt registry request try #1 at 11:26:00
+206 verbose etag W/"9d8ac042cb50cf973b25a0aff2558b6f"
+207 verbose lastModified Sun, 30 Aug 2020 10:18:13 GMT
+208 http request GET https://registry.npmjs.org/lodash
+209 verbose request uri https://registry.npmjs.org/uuid
+210 verbose request no auth needed
+211 info attempt registry request try #1 at 11:26:00
+212 verbose etag W/"81541449430a931ec16d0b1d296f18cd"
+213 verbose lastModified Mon, 27 Jul 2020 19:01:40 GMT
+214 http request GET https://registry.npmjs.org/uuid
+215 verbose request uri https://registry.npmjs.org/commander
+216 verbose request no auth needed
+217 info attempt registry request try #1 at 11:26:00
+218 verbose etag W/"65d5975cae4cb11e26b72fa9ce8edd8f"
+219 verbose lastModified Fri, 28 Aug 2020 01:22:58 GMT
+220 http request GET https://registry.npmjs.org/commander
+221 http 304 https://registry.npmjs.org/colorette
+222 verbose headers { date: 'Sun, 06 Sep 2020 05:56:01 GMT',
+222 verbose headers   connection: 'keep-alive',
+222 verbose headers   'set-cookie':
+222 verbose headers    [ '__cfduid=dab2f22dfbbd98ccc56822f4363811dc81599371761; expires=Tue, 06-Oct-20 05:56:01 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+222 verbose headers   'cf-ray': '5ce5f1c36d4f4da5-BOM',
+222 verbose headers   age: '3363',
+222 verbose headers   'cache-control': 'public, max-age=300',
+222 verbose headers   etag: '"665ad403f25cfae166255a97f1ef22d0"',
+222 verbose headers   'last-modified': 'Sun, 05 Jul 2020 13:33:21 GMT',
+222 verbose headers   vary: 'Accept-Encoding',
+222 verbose headers   'cf-cache-status': 'HIT',
+222 verbose headers   'cf-request-id': '0503956e2300004da56bbf0200000001',
+222 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+222 verbose headers   server: 'cloudflare' }
+223 silly get cb [ 304,
+223 silly get   { date: 'Sun, 06 Sep 2020 05:56:01 GMT',
+223 silly get     connection: 'keep-alive',
+223 silly get     'set-cookie':
+223 silly get      [ '__cfduid=dab2f22dfbbd98ccc56822f4363811dc81599371761; expires=Tue, 06-Oct-20 05:56:01 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+223 silly get     'cf-ray': '5ce5f1c36d4f4da5-BOM',
+223 silly get     age: '3363',
+223 silly get     'cache-control': 'public, max-age=300',
+223 silly get     etag: '"665ad403f25cfae166255a97f1ef22d0"',
+223 silly get     'last-modified': 'Sun, 05 Jul 2020 13:33:21 GMT',
+223 silly get     vary: 'Accept-Encoding',
+223 silly get     'cf-cache-status': 'HIT',
+223 silly get     'cf-request-id': '0503956e2300004da56bbf0200000001',
+223 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+223 silly get     server: 'cloudflare' } ]
+224 verbose etag https://registry.npmjs.org/colorette from cache
+225 verbose get saving colorette to /home/ng-1/.npm/registry.npmjs.org/colorette/.cache.json
+226 verbose stack Error: Missing required argument #1
+226 verbose stack     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+226 verbose stack     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+226 verbose stack     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+226 verbose stack     at /usr/share/npm/lib/install/deps.js:457:7
+226 verbose stack     at /usr/share/npm/node_modules/iferr/index.js:13:50
+226 verbose stack     at /usr/share/npm/lib/fetch-package-metadata.js:37:12
+226 verbose stack     at addRequestedAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:82:5)
+226 verbose stack     at returnAndAddMetadata (/usr/share/npm/lib/fetch-package-metadata.js:117:7)
+226 verbose stack     at pickVersionFromRegistryDocument (/usr/share/npm/lib/fetch-package-metadata.js:134:20)
+226 verbose stack     at /usr/share/npm/node_modules/iferr/index.js:13:50
+227 verbose cwd /home/ng-1/programming/nodexpre/loginAndSignup
+228 error Linux 5.0.0-32-generic
+229 error argv "/usr/bin/node" "/usr/bin/npm" "install" "--save" "knex"
+230 error node v8.10.0
+231 error npm  v3.5.2
+232 error code EMISSINGARG
+233 error typeerror Error: Missing required argument #1
+233 error typeerror     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+233 error typeerror     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+233 error typeerror     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+233 error typeerror     at /usr/share/npm/lib/install/deps.js:457:7
+233 error typeerror     at /usr/share/npm/node_modules/iferr/index.js:13:50
+233 error typeerror     at /usr/share/npm/lib/fetch-package-metadata.js:37:12
+233 error typeerror     at addRequestedAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:82:5)
+233 error typeerror     at returnAndAddMetadata (/usr/share/npm/lib/fetch-package-metadata.js:117:7)
+233 error typeerror     at pickVersionFromRegistryDocument (/usr/share/npm/lib/fetch-package-metadata.js:134:20)
+233 error typeerror     at /usr/share/npm/node_modules/iferr/index.js:13:50
+234 error typeerror This is an error with npm itself. Please report this error at:
+234 error typeerror     <http://github.com/npm/npm/issues>
+235 verbose exit [ 1, true ]
